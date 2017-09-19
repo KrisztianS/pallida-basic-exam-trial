@@ -33,4 +33,4 @@ The application is accepted if:
 
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer:
-[add your answer here]
+[The biggest difference between id and class, that id is used to mark only 1 element. With class there is possible to handle as much elements as we want and give the whole class the same style. Id could be also useful, if we want to "raise" just 1 element, the others can be class. Id can be used multiple times, but the page will not be valid.]
