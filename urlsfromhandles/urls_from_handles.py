@@ -8,4 +8,10 @@
 # output: ["https://github.com/greenfox-academy/ghhandle1", "https://github.com/greenfox-academy/ghhandle2"]
 
 names = ["ghhandle1", "ghhandle2"]
-print(urls_from_handles(names))
+
+def url_creator(names):
+    output = ""
+    for i in names:
+        output += "https://github.com/greenfox-academy/" + i + " "
+    print(output)
+url_creator(names)
