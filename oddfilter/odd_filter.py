@@ -9,6 +9,6 @@ def odd_filter(numbers_to_filter):
     for number in numbers_to_filter:
         if number % 2 > 0:
             odd_numbers.append(number)
-            print(odd_numbers)
+    return(odd_numbers)
               
-odd_filter(numbers_to_filter)
+print(odd_filter(numbers_to_filter))
