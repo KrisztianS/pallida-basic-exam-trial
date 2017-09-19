@@ -5,4 +5,12 @@
 # example: "elek.viz@exam.com" for this input the output should be: "Viz Elek"
 # accents does not matter
 
-print(name_from_email("elek.viz@exam.com"))
+email = input("Give me your email adress: ")
+
+def name_from_email(email):
+    name = email.split("@")
+    split_name = name[0].split(".")
+    split_name.reverse()
+    return (' '.join(split_name))
+
+print(name_from_email(email))
